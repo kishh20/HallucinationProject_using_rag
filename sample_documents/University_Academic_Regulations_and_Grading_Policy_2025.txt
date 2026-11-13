@@ -1,0 +1,54 @@
+OFFICIAL INSTITUTIONAL REGULATION: ACADEMIC REGULATIONS & GRADING FRAMEWORK
+Document Code: REG-2025-01
+Authority: Academic Council of Technological Sciences and University Senate
+Effective Date: July 1, 2025 | Applicable to: All Undergraduate (B.Tech) & Postgraduate (M.Tech) Students
+
+SECTION 1: ATTENDANCE ELIGIBILITY REQUIREMENTS
+1.1 Mandatory Attendance Threshold:
+Every registered student is required to secure a minimum of 75% attendance in aggregate across lectures, tutorials, and practical sessions for each registered course to be eligible to appear for the End-Semester Final Examination.
+
+1.2 Condonation for Genuine Medical / Compassionate Grounds:
+- Condonation of attendance shortage up to 10% (i.e., attendance between 65.0% and 74.9%) may be granted exclusively on valid medical grounds (e.g., hospitalization, communicable illness) or official university deputation (inter-university sports, cultural, technical representation).
+- An application for medical condonation must be submitted along with medical documentation certified by the University Chief Medical Officer within 7 calendar days of resuming classes.
+- A non-refundable condonation fee of $50 (INR 2,000) per course must be remitted prior to hall ticket issuance.
+
+1.3 Attendance Shortage Disqualification (Detention):
+- Students possessing less than 65.0% attendance in any course are summarily disqualified and detained from taking the End-Semester Examination in that subject.
+- The student is awarded Grade 'W' (Withdrawn for Lack of Attendance) and must mandatorily re-register and repeat the complete course in a subsequent summer semester or regular term. No exceptions or waivers are permitted by any authority.
+
+SECTION 2: GRADING SCALE, LETTER GRADES & GRADE POINTS
+Performance in each registered course is graded on a 10-point absolute grading scale as approved by the Academic Council:
+
+| Marks Obtained (%) | Letter Grade | Grade Point | Performance Description |
+|-------------------|--------------|-------------|-------------------------|
+| 90.0% to 100%     | O            | 10.0        | Outstanding             |
+| 80.0% to 89.9%    | A+           | 9.0         | Excellent               |
+| 70.0% to 79.9%    | A            | 8.0         | Very Good               |
+| 60.0% to 69.9%    | B+           | 7.0         | Good                    |
+| 55.0% to 59.9%    | B            | 6.0         | Above Average           |
+| 50.0% to 54.9%    | C            | 5.0         | Pass                    |
+| Below 50.0%       | F            | 0.0         | Fail                    |
+| Short Attendance  | W            | 0.0         | Withdrawn (Detained)    |
+| Absent from Exam  | AB           | 0.0         | Absent                  |
+
+SECTION 3: SGPA & CGPA COMPUTATION FORMULA
+3.1 Semester Grade Point Average (SGPA):
+SGPA is computed at the conclusion of each semester using the formula:
+    SGPA = Sum(C_i * GP_i) / Sum(C_i)
+where C_i denotes the number of credits assigned to the i-th course and GP_i is the grade point earned in that course.
+
+3.2 Cumulative Grade Point Average (CGPA):
+CGPA evaluates cumulative academic progress across all enrolled semesters:
+    CGPA = Sum(All Earned Course Credits * Respective Grade Points) / Total Registered Credits
+
+3.3 Degree Classifications:
+- First Class with Distinction: Minimum CGPA of 8.50 with all courses cleared in the first attempt without any arrears or backlogs.
+- First Class: CGPA between 6.75 and 8.49.
+- Second Class: CGPA between 5.00 and 6.74.
+
+SECTION 4: MAKE-UP & SUPPLEMENTARY EXAMINATIONS
+4.1 In-Semester Make-Up Tests:
+If a candidate misses an in-semester midterm test due to certified illness, hospitalization, or bereavement in the immediate family, the student must notify the Head of Department within 3 business days. A single unified make-up assessment will be conducted before the semester end.
+
+4.2 Supplementary (Arrear) Examinations:
+Supplementary examinations for failed courses (Grade F) are held once per year during the summer recess. A candidate is permitted a maximum of three consecutive attempts to clear a backlog course before being placed on academic remediation.

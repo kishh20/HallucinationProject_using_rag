@@ -1,0 +1,62 @@
+COURSE SYLLABUS: ARTIFICIAL INTELLIGENCE AND NEURAL NETWORKS
+Course Code: CS401
+Department: Department of Computer Science & Engineering
+Academic Year: 2025-2026 | Semester: 7th Semester (Autumn)
+Credits: 4 (Lecture: 3 hours/week, Tutorial: 1 hour/week, Practical: 0)
+Prerequisites: Data Structures & Algorithms (CS201), Discrete Mathematics (MA203), Probability & Statistics (MA205)
+
+COURSE OVERVIEW:
+This course provides a rigorous foundation in classical artificial intelligence, heuristic search methods, knowledge representation, probabilistic inference, and deep neural network architectures. Students will study algorithmic formulation of intelligent agents and implement modern learning techniques.
+
+PROGRAM LEARNING OUTCOMES (POs):
+- PO1: Apply mathematical and computational foundations to build intelligent problem-solving systems.
+- PO2: Formulate complex algorithmic search problems and evaluate time/space trade-offs.
+- PO3: Design, train, and validate neural network architectures for classification and regression tasks.
+- PO4: Evaluate ethical, safety, and fairness implications of autonomous AI systems.
+
+DETAILED COURSE UNITS:
+
+UNIT I: PROBLEM SOLVING BY SEARCH (8 Hours)
+- Introduction to AI and Intelligent Agents: Rational agents, PEAS descriptions (Performance, Environment, Actuators, Sensors), environment types.
+- Uninformed Search Strategies: Breadth-First Search (BFS), Depth-First Search (DFS), Uniform-Cost Search (UCS), Depth-Limited Search, Iterative Deepening Search.
+- Informed (Heuristic) Search Strategies: Greedy Best-First Search, A* Search algorithm, admissibility and consistency of heuristics, memory-bounded heuristic search (IDA*, SMA*).
+- Adversarial Search: Game playing, Minimax algorithm, Alpha-Beta pruning, evaluation functions, evaluation under stochastic conditions.
+
+UNIT II: KNOWLEDGE REPRESENTATION AND LOGICAL REASONING (9 Hours)
+- Propositional Logic: Syntax, semantics, truth tables, inference rules, Horn clauses, forward and backward chaining.
+- First-Order Predicate Logic (FOL): Quantifiers, unification, generalized Modus Ponens, Skolemization, resolution refutation proofs.
+- Classical Planning: STRIPS and PDDL representations, state-space planning, partial-order planning, graphplan algorithms.
+- Ontological Engineering: Semantic networks, description logics, frames, and knowledge graphs.
+
+UNIT III: PROBABILISTIC REASONING AND UNCERTAINTY (8 Hours)
+- Handling Uncertain Knowledge: Prior and conditional probability, Bayes' Rule and its applications.
+- Bayesian Networks: Representation, semantics, conditional independence, d-separation rules.
+- Exact Inference in Bayesian Networks: Enumeration algorithm, variable elimination.
+- Approximate Inference: Direct sampling, rejection sampling, likelihood weighting, Markov Chain Monte Carlo (MCMC).
+- Hidden Markov Models (HMMs): Viterbi decoding and Forward-Backward algorithm.
+
+UNIT IV: MACHINE LEARNING & FEEDFORWARD NEURAL NETWORKS (10 Hours)
+- Supervised Learning Foundations: Linear regression, Logistic regression, decision boundaries, cost functions, gradient descent optimization.
+- Artificial Neural Networks: Biological vs Artificial Neurons, Perceptron convergence theorem, limitations of single-layer perceptrons (XOR problem).
+- Multilayer Perceptrons (MLP): Activation functions (Sigmoid, Tanh, ReLU, Leaky ReLU, GELU), Universal Approximation Theorem.
+- Backpropagation Algorithm: Mathematical derivation using chain rule, forward pass, error propagation, weight update equations.
+- Regularization and Optimization: Weight decay (L1/L2), Dropout, Batch Normalization, Adam and RMSprop optimizers.
+
+UNIT V: MODERN DEEP ARCHITECTURES & ADVANCED AI (10 Hours)
+- Convolutional Neural Networks (CNNs): Convolution operator, padding, stride, pooling layers, feature maps; Classic architectures (LeNet, ResNet skip connections).
+- Sequence Models: Recurrent Neural Networks (RNNs), vanishing gradient challenge, Long Short-Term Memory (LSTM) cells, Gated Recurrent Units (GRU).
+- Transformer Architecture: Self-attention mechanism, Scaled Dot-Product Attention, Multi-Head Attention, Positional Encoding, Encoder-Decoder structure.
+- Introduction to Foundation Models: Pretraining, fine-tuning, retrieval-augmented generation (RAG), and hallucination mitigation mechanisms.
+
+TEXTBOOKS & REFERENCES:
+1. Primary Text: Stuart Russell and Peter Norvig, "Artificial Intelligence: A Modern Approach", 4th Edition, Pearson Education, 2020.
+2. Ian Goodfellow, Yoshua Bengio, and Aaron Courville, "Deep Learning", MIT Press, 2016.
+3. Elaine Rich, Kevin Knight, and Shivashankar B. Nair, "Artificial Intelligence", 3rd Edition, McGraw Hill, 2017.
+4. Christopher M. Bishop, "Pattern Recognition and Machine Learning", Springer, 2006.
+
+EVALUATION & GRADING SCHEME:
+- Continuous Assessment Tests (Mid-Term Exam 1): 20%
+- Continuous Assessment Tests (Mid-Term Exam 2): 20%
+- Quizzes, Assignments, and Course Mini-Project: 10%
+- End-Semester Final Comprehensive Examination: 50%
+- Minimum Passing Threshold: A student must obtain at least 40% in the End-Semester Examination and an overall aggregate of 45% (continuous assessment + final exam combined) to successfully earn credit for the course.

@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Local databases and runtime vector indexes
+data/chroma_db/
+data/faiss_db/
+data/local_store/
+*.sqlite3
+
+# Benchmark and scratch artifacts
+benchmark_*
+verify_system.py
+
+# Environment variables & secrets
+.env
+.env.*
+
+# Streamlit run cache
+.streamlit/cache/
+.DS_Store

@@ -1,0 +1,59 @@
+COURSE CURRICULUM: APPLIED DATA SCIENCE AND BIG DATA ANALYTICS
+Course Code: DS302
+Department: Department of Artificial Intelligence & Data Science
+Academic Year: 2025-2026 | Semester: 5th Semester (Autumn)
+Credits: 4 (Lecture: 3 hours/week, Tutorial: 0, Practical/Laboratory: 2 hours/week)
+Prerequisites: Linear Algebra (MA201), Object-Oriented Programming with Python (CS102), Database Management Systems (CS204)
+
+COURSE DESCRIPTION & OBJECTIVES:
+This course bridges statistical learning and large-scale data engineering. It equips students with practical and theoretical knowledge of exploratory data analysis, ensemble learning, clustering algorithms, vector databases for dense semantic search, and distributed data processing with Apache Spark.
+
+COURSE LEARNING OUTCOMES (CLOs):
+- CLO 1: Clean, transform, and impute heterogeneous multidimensional datasets using robust feature engineering pipelines.
+- CLO 2: Train and fine-tune tree-based ensemble models (Random Forest, XGBoost, LightGBM) with hyperparameter optimization.
+- CLO 3: Implement unsupervised clustering algorithms (K-Means++, DBSCAN) and evaluate cluster validity indices (Silhouette, Davies-Bouldin).
+- CLO 4: Construct vector search pipelines using ChromaDB and FAISS for Retrieval-Augmented Generation (RAG) applications.
+- CLO 5: Execute distributed ETL jobs and SQL transformations on Apache Spark and Dataproc clusters.
+
+DETAILED SYLLABUS UNITS:
+
+MODULE 1: DATA INGESTION, PROFILING & FEATURE ENGINEERING (7 Lecture Hours + 4 Lab Hours)
+- Exploratory Data Analysis: Univariate and bivariate profiling, summary statistics, boxplots, distribution skewness.
+- Data Quality & Imputation: Missing completely at random (MCAR), missing at random (MAR); Mean/Median vs KNN imputation; Outlier detection via Z-Score and Interquartile Range (IQR).
+- Dimensionality Reduction: Principal Component Analysis (PCA) derivation via SVD, explained variance ratios, t-Distributed Stochastic Neighbor Embedding (t-SNE) for high-dimensional visualization.
+- Practical Lab: Implementing automated data auditing and cleaning pipelines using Pandas and Scikit-Learn.
+
+MODULE 2: SUPERVISED LEARNING & GRADIENT BOOSTED ENSEMBLES (9 Lecture Hours + 6 Lab Hours)
+- Bias-Variance Tradeoff: Underfitting vs overfitting, Cross-validation strategies (K-Fold, Stratified K-Fold).
+- Decision Trees: Information Gain (Entropy), Gini Impurity, tree pruning (Cost-Complexity Pruning).
+- Ensemble Paradigms: Bagging vs Boosting; Bootstrap aggregating, Random Forest feature importance.
+- Gradient Boosting: Residual fitting, Gradient Boosted Trees (GBDT), XGBoost architecture (second-order Taylor expansion of objective, sparsity-aware split finding), LightGBM (histogram-based algorithms, leaf-wise split).
+- Practical Lab: Training XGBoost classifiers on imbalanced multi-class tabular benchmarks with Optuna tuning.
+
+MODULE 3: CLUSTERING & DENSITY-BASED LEARNING (8 Lecture Hours + 4 Lab Hours)
+- Partitioning Algorithms: K-Means algorithm, Lloyd's algorithm, sensitivity to initialization, K-Means++ seeded initialization.
+- Density-Based Clustering: DBSCAN (Core points, Border points, Noise points, Epsilon neighborhood, MinPts parameter selection).
+- Hierarchical Clustering: Agglomerative clustering, Linkage criteria (Single, Complete, Average, Ward's minimum variance).
+- Evaluation Metrics: Silhouette coefficient, Davies-Bouldin index, Calinski-Harabasz score.
+- Practical Lab: Customer segmentation and anomaly detection using DBSCAN and visual cluster projections.
+
+MODULE 4: VECTOR EMBEDDINGS & DENSE RETRIEVAL (9 Lecture Hours + 6 Lab Hours)
+- Dense Vector Representation: Text embeddings using Sentence Transformers (all-MiniLM-L6-v2), semantic cosine similarity.
+- Vector Indexing & Approximate Nearest Neighbors (ANN): Flat indexing vs Inverted File with Voronoi cells (IVF), Hierarchical Navigable Small World (HNSW) graphs.
+- Vector Databases: ChromaDB collections, FAISS index construction (IndexFlatL2, IndexIVFFlat), metadata filtering.
+- Retrieval-Augmented Generation (RAG): Chunking strategies, semantic retrieval, context window optimization, hallucination verification in RAG pipelines.
+- Practical Lab: Building a local RAG knowledge retrieval system using ChromaDB, FAISS, and Streamlit.
+
+MODULE 5: DISTRIBUTED BIG DATA PROCESSING (7 Lecture Hours + 4 Lab Hours)
+- Big Data Architectures: Shared-nothing architectures, MapReduce paradigm vs In-Memory computation.
+- Apache Spark Core: Resilient Distributed Datasets (RDDs), DAG execution engine, transformations vs actions, lazy evaluation.
+- Spark SQL & DataFrames: Catalyst query optimizer, Tungsten execution engine, structured streaming.
+- Cloud Managed Spark: Google Cloud Dataproc serverless execution, Delta Lake and Apache Iceberg open table formats.
+- Practical Lab: Writing PySpark data transformation scripts and executing distributed aggregations.
+
+EVALUATION SCHEME:
+- Continuous Assessment 1 (Theory Mid-Term): 20%
+- Continuous Assessment 2 (Comprehensive Laboratory Practical Exam): 25%
+- Capstone Term Project (Code, Report & Live Demo): 15%
+- End-Semester Final University Examination: 40%
+- Total: 100% (Passing Requirement: Minimum 40% in Final Exam and 50% overall).
